@@ -20,7 +20,18 @@ macOS 13 Ventura 이상에서 Apple Silicon과 Intel을 지원합니다. Cask는
 brew install --cask --adopt rioald/tap/gkdl
 ```
 
-기존 앱의 소유 그룹을 Homebrew에 맞추는 과정에서 관리자 암호가 필요할 수 있으므로, 편입 명령은 Mac의 터미널에서 실행하세요.
+기존 앱의 소유 그룹을 Homebrew에 맞추는 과정에서 관리자 암호가 필요할 수 있습니다. macOS의 **앱 관리** 권한은 관리자 인증과 별개이며, `sudo`로도 대신할 수 없습니다.
+
+### `chgrp: Operation not permitted` 오류가 발생하면
+
+`/Applications/gkdl.app`에 대해 이 오류가 발생하면, 명령을 실행한 터미널 앱의 **앱 관리** 권한을 확인하세요.
+
+1. **시스템 설정 → 개인정보 보호 및 보안 → 앱 관리**를 엽니다.
+2. **터미널(Terminal)**을 켭니다. iTerm이나 다른 앱의 내장 터미널에서 실행했다면 해당 앱을 허용하세요. 목록에 없으면 `+`로 추가합니다.
+3. macOS가 요청하면 관리자 인증을 완료하고, 터미널 재시작 안내가 표시되면 작업을 저장한 뒤 따릅니다.
+4. 같은 터미널에서 `brew install --cask --adopt rioald/tap/gkdl`을 다시 실행합니다.
+
+이는 Homebrew가 기존 앱을 관리하기 위한 권한입니다. gkdl의 키보드 기능에 필요한 **손쉬운 사용** 권한과는 별개입니다. [Apple의 앱 관리 권한 안내](https://support.apple.com/ko-kr/guide/mac-help/mchl211c911f/mac)를 참고하세요.
 
 ## 업데이트와 삭제
 
