@@ -10,9 +10,9 @@ TWENTYOZ 앱을 설치하는 Homebrew 저장소입니다.
 brew install --cask rioald/tap/gkdl
 ```
 
-macOS 13 Ventura 이상에서 Apple Silicon과 Intel을 지원합니다. Cask는 TWENTYOZ Developer ID 서명과 Apple 공증을 마친 공식 릴리스 ZIP을 내려받고 SHA-256을 검증합니다.
+macOS 13 Ventura 이상에서 Apple Silicon과 Intel을 지원합니다.
 
-설치 후 gkdl을 열고 **시스템 설정 → 개인정보 보호 및 보안 → 손쉬운 사용**에서 접근성 권한을 허용하세요. 기존 gksdud는 먼저 정상 종료하고, gkdl 설정에서 원하는 한영 전환 키와 아차차를 켜세요.
+기존 gksdud는 먼저 정상 종료한 뒤 gkdl을 실행하세요. 메뉴 막대의 **한/hi → 설정**을 열고, **시스템 설정 → 개인정보 보호 및 보안 → 손쉬운 사용**에서 gkdl을 허용하세요. gkdl 설정으로 돌아와 **활성화**를 켜고, 원하는 한영 전환 키와 아차차를 설정하세요.
 
 같은 버전의 공식 ZIP으로 이미 설치했다면 기존 앱을 Homebrew 관리에 편입할 수 있습니다.
 
