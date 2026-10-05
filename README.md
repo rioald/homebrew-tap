@@ -20,6 +20,8 @@ macOS 13 Ventura 이상에서 Apple Silicon과 Intel을 지원합니다. Cask는
 brew install --cask --adopt rioald/tap/gkdl
 ```
 
+기존 앱의 소유 그룹을 Homebrew에 맞추는 과정에서 관리자 암호가 필요할 수 있으므로, 편입 명령은 Mac의 터미널에서 실행하세요.
+
 ## 업데이트와 삭제
 
 gkdl의 앱 내 업데이트를 사용할 수 있습니다. Homebrew로 업데이트하려면 다음을 실행하세요.
