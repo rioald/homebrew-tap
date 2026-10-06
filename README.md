@@ -1,6 +1,6 @@
-# TWENTYOZ Homebrew Tap
+# rioald Homebrew Tap
 
-TWENTYOZ 앱을 설치하는 Homebrew 저장소입니다.
+rioald의 앱을 설치하는 Homebrew 저장소입니다.
 
 ## gkdl 설치
 
@@ -12,7 +12,7 @@ brew install --cask rioald/tap/gkdl
 
 macOS 13 Ventura 이상에서 Apple Silicon과 Intel을 지원합니다.
 
-기존 gksdud는 먼저 정상 종료한 뒤 gkdl을 실행하세요. 메뉴 막대의 **한/hi → 설정**을 열고, **시스템 설정 → 개인정보 보호 및 보안 → 손쉬운 사용**에서 gkdl을 허용하세요. gkdl 설정으로 돌아와 **활성화**를 켜고, 원하는 한영 전환 키와 아차차를 설정하세요.
+기존 gksdud는 먼저 정상 종료한 뒤 gkdl을 실행하세요. 메뉴 막대의 **하이 / gkdl → 설정**을 열고, **시스템 설정 → 개인정보 보호 및 보안 → 손쉬운 사용**에서 gkdl을 허용하세요. gkdl 설정으로 돌아와 **활성화**를 켜고, 원하는 한영 전환 키와 아차차를 설정하세요.
 
 같은 버전의 공식 ZIP으로 이미 설치했다면 기존 앱을 Homebrew 관리에 편입할 수 있습니다.
 

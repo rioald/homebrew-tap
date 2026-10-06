@@ -1,6 +1,6 @@
 cask "gkdl" do
   version "1.0.0"
-  sha256 "2b7db3c2120f5b1f49adcfd8257016b661a9eecb59914086fbd2f08c6ef02a16"
+  sha256 "874b3b06a2ed2d940ce6f4ebedd946d74a95a0c851b85b00f82ebdcc1f257bde"
 
   url "https://github.com/rioald/gkdl/releases/download/v#{version}/gkdl-#{version}-macos-universal.zip"
   name "gkdl"
@@ -17,9 +17,9 @@ cask "gkdl" do
 
   app "gkdl.app"
 
-  uninstall quit: "kr.twentyoz.gkdl"
+  uninstall quit: "com.zzune.gkdl"
 
-  zap trash: "~/Library/Preferences/kr.twentyoz.gkdl.plist"
+  zap trash: "~/Library/Preferences/com.zzune.gkdl.plist"
 
   caveats <<~EOS
     Open gkdl and grant Accessibility access in System Settings to enable keyboard features.
