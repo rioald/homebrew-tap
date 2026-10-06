@@ -1,6 +1,6 @@
 cask "gkdl" do
-  version "1.0.0"
-  sha256 "609de5668875567d4286a30dca953e905dd865644049a3c97852405fdbb7fb4c"
+  version "1.0.1"
+  sha256 "8aa39e1d8a6b7ad4279335481ede43a189aafbdd3ce96f27103f7698e810d7e2"
 
   url "https://github.com/rioald/gkdl/releases/download/v#{version}/gkdl-#{version}-macos-universal.zip"
   name "gkdl"
